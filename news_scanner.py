@@ -2,9 +2,6 @@ import requests
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import time
 
-# Replace with your CryptoPanic API Key
-API_KEY = "3af59448976cf09c882683bea3641764c634bf24"
-
 # Setup sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
 
